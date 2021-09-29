@@ -25,3 +25,9 @@ function addAndMultiplyBy5(s, t) {
 var multiplyAndDivideBy5 = addAndMultiplyBy5(35, 10);
 console.log(multiplyAndDivideBy5)
 ;
+
+function subtractTwoNumbers(b, c) {
+  return b - c;
+}
+var subtractTwoNumbersresults = subtractTwoNumbers(22, 7);
+console.log(subtractTwoNumbersresults);
