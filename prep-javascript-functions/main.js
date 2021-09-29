@@ -18,4 +18,10 @@ function getGreeting(name) {
 }
 var getGreetingResult = getGreeting('Diamond');
 console.log(getGreetingResult);
-// "Hello, Diamond!"
+
+function addAndMultiplyBy5(s, t) {
+  return s * t / 5;
+}
+var multiplyAndDivideBy5 = addAndMultiplyBy5(35, 10);
+console.log(multiplyAndDivideBy5)
+;
