@@ -38,3 +38,10 @@ function getCircleCircumference(radius) {
 }
 var getCircleCircumferenceresults = getCircleCircumference(5);
 console.log(getCircleCircumferenceresults);
+
+function getFullName(firstName, lastName) {
+  return firstName + ' ' + lastName;
+}
+
+var getFullNameResults = getFullName('Diamond', 'Morehead');
+console.log(getFullNameResults);
