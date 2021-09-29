@@ -31,3 +31,10 @@ function subtractTwoNumbers(b, c) {
 }
 var subtractTwoNumbersresults = subtractTwoNumbers(22, 7);
 console.log(subtractTwoNumbersresults);
+
+function getCircleCircumference(radius) {
+  return 2 * 3.14159265359 * radius;
+
+}
+var getCircleCircumferenceresults = getCircleCircumference(5);
+console.log(getCircleCircumferenceresults);
