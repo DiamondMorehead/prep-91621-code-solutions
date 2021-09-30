@@ -16,15 +16,21 @@ function getGreeting(name) {
   return 'Hello' + ' ' + name + '!'
   ;
 }
+
 var getGreetingResult = getGreeting('Diamond');
 console.log(getGreetingResult);
 
 function addAndMultiplyBy5(s, t) {
-  return s * t / 5;
+  return 5 * (s + t);
 }
-var multiplyAndDivideBy5 = addAndMultiplyBy5(35, 10);
-console.log(multiplyAndDivideBy5)
-;
+var addAndMultiplyBy5results = addAndMultiplyBy5(10, 5);
+console.log(addAndMultiplyBy5results);
+
+function multiplyAndDivideBy5(e, f) {
+  return e * f / 5;
+}
+var multiplyAndDivideBy5results = multiplyAndDivideBy5(35, 10);
+console.log(multiplyAndDivideBy5results);
 
 function subtractTwoNumbers(b, c) {
   return b - c;
