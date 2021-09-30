@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: 33%;
+    }
+
+    p {
+      text-align: left;
+      display: flex;
+    }
+  </style>
+</head>
+<h1>Indiana Jones</h1>
+<body>
+
+<!-- Complete the HTML here -->
+<div class="container">
+  <div class="row">
+    <div class="column"><img src="images/crusade.jpg" width="100%"><h4>The Last Crusade</h4><p>No idea. I have yet to see the movies but I know they are classics.</p>
+</div>
+    <div class="column"><img src="images/raiders.jpg" width="100%"><h4>Raiders of the Lost Ark</h4><p>I've never heard of this one. I have yet to see the movies but I know they are classics.</p>
+</div>
+    <div class="column"><img src="images/temple.jpg" width="100%"><h4>Temple of Doom</h4><p> This cover is pretty. I have yet to see the movies but I know they are classics.</p>
+</div>
+  </div>
+</div>
+
+</body>
+</html>
