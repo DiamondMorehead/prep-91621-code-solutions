@@ -45,3 +45,10 @@ function getFullName(firstName, lastName) {
 
 var getFullNameResults = getFullName('Diamond', 'Morehead');
 console.log(getFullNameResults);
+
+function cube(c) {
+  return c * c * c;
+}
+var cubeResults = cube(5);
+console.log(cubeResults)
+;
